@@ -1,6 +1,6 @@
 const express = require('express');
 const session = require('cookie-session');
-const { PORT, SERVER_SESSION_SECRET } = require('./config.js');
+const { PORT, SERVER_SESSION_SECRET } = require('./wwwroot/config.js');
 
 let app = express();
 app.use(express.static('wwwroot'));
